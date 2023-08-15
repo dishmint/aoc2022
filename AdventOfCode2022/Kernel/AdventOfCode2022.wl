@@ -7,6 +7,6 @@ Needs["PacletTools`"]
 Needs["FaizonZaman`AdventOfCode2022`Day1`"]
 
 
-End[] (* End `Private` *)
+End[]
 
 EndPackage[]
