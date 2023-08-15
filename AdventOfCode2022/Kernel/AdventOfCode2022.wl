@@ -1,14 +1,11 @@
-BeginPackage["AdventOfCode2022`"]
+BeginPackage["FaizonZaman`AdventOfCode2022`"]
 
-(* Declare your package's public symbols here. *)
-
-SayHello
+Day1Part1Solution::usage = "Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?"
+Day1Part2Solution::usage = "Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?"
 
 Begin["`Private`"]
-
-(* Define your public and private symbols here. *)
-
-SayHello[name_?StringQ] := Print["Hello ", name, "!"]
+Needs["PacletTools`"]
+Needs["FaizonZaman`AdventOfCode2022`Day1`"]
 
 
 End[] (* End `Private` *)
