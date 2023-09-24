@@ -22,7 +22,7 @@ PacletObject[
             {"Puzzle1", "input-day1-part1.txt"},
             {"Puzzle2", "input-day2-part1.txt"},
             {"Puzzle3", "input-day3-part1.txt"},
-            {"Puzzle3", "input-day4-part1.txt"}
+            {"Puzzle4", "input-day4-part1.txt"}
             }
       },
       {"Documentation", "Language" -> "English"}
