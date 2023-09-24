@@ -9,6 +9,7 @@ Needs["PacletTools`"]
 Needs["FaizonZaman`AdventOfCode2022`Day1`"]
 Needs["FaizonZaman`AdventOfCode2022`Day2`"]
 Needs["FaizonZaman`AdventOfCode2022`Day3`"]
+Needs["FaizonZaman`AdventOfCode2022`Day4`"]
 
 
 End[]
