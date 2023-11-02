@@ -720,7 +720,7 @@ Cell[BoxData[
  RowBox[{"Quit", "[", "]"}]], "Input", "Excluded",
  TaggingRules->{},
  CellChangeTimes->{{3.901095043818891*^9, 3.901095044507436*^9}},
- CellLabel->"In[10]:=",
+ CellLabel->"In[23]:=",
  CellID->1504959028,ExpressionUUID->"eff48921-abf8-4e17-a34f-73329a1358bb"],
 
 Cell[CellGroupData[{
@@ -4849,7 +4849,7 @@ Cell["Additional information about limitations, issues, etc.", "Text",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{720, 847},
+WindowSize->{1054, 847},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 WindowTitle->"AdventOfCode2022 | Definition Notebook",
 DockedCells->{

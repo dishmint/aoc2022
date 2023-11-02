@@ -2,8 +2,7 @@ BeginPackage["FaizonZaman`AdventOfCode2022`Day2`"]
 
 Begin["`Private`"]
 Needs["PacletTools`"]
-source = Import[
-    PacletExtensionFiles[PacletObject["FaizonZaman/AdventOfCode2022"], "Resource"] // Values/*Flatten/*Select[FileBaseName/*StringContainsQ["day2-part1"]]/*First]
+source = Import[FileNameJoin[{DirectoryName[$InputFileName, 2], "PuzzleInputs", "input-day2-part1.txt"}]]
 
 day2PuzzleInput = StringSplit[source,"\n"] // Map[StringSplit]
 
