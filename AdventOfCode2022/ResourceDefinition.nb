@@ -2808,36 +2808,42 @@ Cell[BoxData[
  TagBox[
   TagBox[
    DynamicModuleBox[{TypeSystem`NestedGrid`PackagePrivate`$state$$ = <|
-    "InitialData" -> {<|"Part" -> "Part1", "Solution" -> "LJSVLTWQM"|>}, 
-     "AllowEmbedding" -> True, "InitialShape" -> 
-     TypeSystem`PackageScope`Limited[
-       TypeSystem`PackageScope`ColumnShape[
-        TypeSystem`PackageScope`Limited[
-         TypeSystem`PackageScope`ColumnShape[
-          TypeSystem`PackageScope`KeyValueShape[
-           TypeSystem`PackageScope`AtomShape[84.], 
-           TypeSystem`PackageScope`AtomShape[100.80000000000001`]]], 2, 
-         DirectedInfinity[1], {All}]], 1, 
-       DirectedInfinity[1], {}], "InitialType" -> TypeSystem`Vector[
-       TypeSystem`Assoc[
-        TypeSystem`Atom[
-         TypeSystem`Enumeration["Part", "Solution"]], 
-        TypeSystem`Atom[String], 2], 1], "Meta" -> <||>, "RowTarget" -> 20, 
-     "ColumnTarget" -> 10, "Shape" -> TypeSystem`PackageScope`Limited[
-       TypeSystem`PackageScope`ColumnShape[
-        TypeSystem`PackageScope`Limited[
-         TypeSystem`PackageScope`ColumnShape[
-          TypeSystem`PackageScope`KeyValueShape[
-           TypeSystem`PackageScope`AtomShape[84.], 
-           TypeSystem`PackageScope`AtomShape[100.80000000000001`]]], 2, 
-         DirectedInfinity[1], {All}]], 1, 
-       DirectedInfinity[1], {}], "Type" -> TypeSystem`Vector[
-       TypeSystem`Assoc[
-        TypeSystem`Atom[
-         TypeSystem`Enumeration["Part", "Solution"]], 
-        TypeSystem`Atom[String], 2], 1], "Path" -> {}, "DisplayedRowCount" -> 
-     1, "DisplayedColumnCount" -> 1, "DataRowCount" -> 1, "DataColumnCount" -> 
-     1, "SortPaths" -> {}, "SortDirections" -> {}, "HiddenItemsMap" -> Null, 
+    "InitialData" -> {<|"Part" -> "Part1", "Solution" -> "LJSVLTWQM"|>, <|
+       "Part" -> "Part2", "Solution" -> "BRQWDBBJM"|>}, "AllowEmbedding" -> 
+     True, "InitialShape" -> 
+     TypeSystem`PackageScope`HeaderShape[<|{All, "Part"} -> 
+        1, {All, "Solution"} -> 1|>, 
+       TypeSystem`PackageScope`Limited[
+        TypeSystem`PackageScope`ColumnShape[
+         TypeSystem`PackageScope`Limited[
+          
+          TypeSystem`PackageScope`RowShape[<|
+           "Part" -> TypeSystem`PackageScope`AtomShape[56.00000000000001], 
+            "Solution" -> 
+            TypeSystem`PackageScope`AtomShape[100.80000000000001`]|>], 
+          DirectedInfinity[1], 2, {All}]], 2, 
+        DirectedInfinity[1], {}]], "InitialType" -> TypeSystem`Vector[
+       TypeSystem`Struct[{"Part", "Solution"}, {
+         TypeSystem`Atom[String], 
+         TypeSystem`Atom[String]}], 2], "Meta" -> <||>, "RowTarget" -> 20, 
+     "ColumnTarget" -> 10, "Shape" -> 
+     TypeSystem`PackageScope`HeaderShape[<|{All, "Part"} -> 
+        1, {All, "Solution"} -> 1|>, 
+       TypeSystem`PackageScope`Limited[
+        TypeSystem`PackageScope`ColumnShape[
+         TypeSystem`PackageScope`Limited[
+          
+          TypeSystem`PackageScope`RowShape[<|
+           "Part" -> TypeSystem`PackageScope`AtomShape[56.00000000000001], 
+            "Solution" -> 
+            TypeSystem`PackageScope`AtomShape[100.80000000000001`]|>], 
+          DirectedInfinity[1], 2, {All}]], 2, 
+        DirectedInfinity[1], {}]], "Type" -> TypeSystem`Vector[
+       TypeSystem`Struct[{"Part", "Solution"}, {
+         TypeSystem`Atom[String], 
+         TypeSystem`Atom[String]}], 2], "Path" -> {}, "DisplayedRowCount" -> 
+     2, "DisplayedColumnCount" -> 2, "DataRowCount" -> 2, "DataColumnCount" -> 
+     2, "SortPaths" -> {}, "SortDirections" -> {}, "HiddenItemsMap" -> Null, 
      "UpdateType" -> 1|>, TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
     TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 1, 
@@ -2869,25 +2875,15 @@ Cell[BoxData[
                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
                    TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
-                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{1, 
-                    Key["Part"]}, 1]]], 
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   All, "Part"}, 1]]], 
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
-                 Key["Part"]}, "RowHeader", False], "Mouse"], 
-              ImageSize -> {{84., Full}, Automatic}, 
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                All, "Part"}, "ColumnHeader", True], "Mouse"], 
+              ImageSize -> {{1, Full}, Automatic}, 
               ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
              GrayLevel[0.95], Alignment -> {Left, Baseline}], 
-            Item[
-             Pane[
-              Annotation["Part1", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
-                 Key["Part"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{100.80000000000001`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
             Item[
              Pane[
               Annotation[
@@ -2910,21 +2906,51 @@ Cell[BoxData[
                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
                    TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
-                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{1, 
-                    Key["Solution"]}, 1]]], 
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   All, "Solution"}, 1]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                All, "Solution"}, "ColumnHeader", True], "Mouse"], 
+              ImageSize -> {{1, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
+             GrayLevel[0.95], Alignment -> {Left, Baseline}]}, {
+            Item[
+             Pane[
+              Annotation["Part1", 
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
-                 Key["Solution"]}, "RowHeader", False], "Mouse"], 
-              ImageSize -> {{84., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
-             GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+                 Key["Part"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{56.00000000000001, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
             Item[
              Pane[
               Annotation["LJSVLTWQM", 
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Solution"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{100.80000000000001`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["Part2", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Part"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{56.00000000000001, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["BRQWDBBJM", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
                  Key["Solution"]}, "Item", False], "Mouse"], 
               ImageSize -> {{100.80000000000001`, Full}, Automatic}, 
               ImageMargins -> {{5, 3}, {4, 5}}], 
@@ -3218,13 +3244,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{203., {33.634033203125, 39.365966796875}},
+      ImageSizeCache->{175., {47.134033203125, 52.865966796875}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{203., {33.634033203125, 39.365966796875}}],
+     ImageSizeCache->{175., {47.134033203125, 52.865966796875}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>(TypeSystem`NestedGrid`PackagePrivate`$outputID$$ = 
@@ -3238,9 +3264,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   Selectable->False]], "Output",
  CellChangeTimes->{3.9057191335928307`*^9, 3.905719347012599*^9, 
   3.905719439205336*^9, 3.90787674191829*^9, 3.907876832608966*^9, 
-  3.907877041780099*^9},
+  3.907877041780099*^9, 3.907878448663246*^9},
  CellLabel->"Out[3]=",
- CellID->215847949,ExpressionUUID->"e8b09204-578d-47ab-9262-109caa65bac1"]
+ CellID->1935468224,ExpressionUUID->"8c2cf9b4-1f9d-4771-a1d7-47ebf9b57374"]
 }, Open  ]]
 }, Open  ]],
 
